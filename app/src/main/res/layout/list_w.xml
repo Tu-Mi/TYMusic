@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_list_w"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/main_colorchange_l"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/list_num_w"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:padding="15dip"
+        android:text="sdfad"
+        android:textColor="@color/gray"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/list_gequ_w"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip"
+        android:text="geshou"
+        android:textColor="@color/white"
+        android:textSize="15dip" />
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bnmusic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="20"
+8-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="29" />
+9-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <!-- <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/> -->
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:10:2-77
+12-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:10:19-75
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:11:2-67
+13-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:11:19-65
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:12:2-63
+14-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:12:19-61
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:13:2-79
+15-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:13:19-60
+16
+17    <application
+17-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:15:5-61:19
+18        android:name="com.example.util.MusicApplication"
+18-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:16:9-57
+19        android:allowBackup="true"
+19-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:17:9-35
+20        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+20-->[com.android.support:support-compat:28.0.0] C:\Users\xm\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher"
+22-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:18:9-45
+23        android:label="@string/app_name"
+23-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:19:9-41
+24        android:theme="@android:style/Theme.Black.NoTitleBar" >
+24-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:20:9-62
+25        <activity
+25-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:22:9-32:20
+26            android:name="com.example.activity.MusicActivityMain"
+26-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:23:13-66
+27            android:label="@string/app_name"
+27-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:24:13-45
+28            android:launchMode="singleTask"
+28-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:26:13-44
+29            android:windowSoftInputMode="adjustPan" >
+29-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:25:13-52
+30            <intent-filter>
+30-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:28:13-31:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:29:17-69
+31-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:29:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:30:17-77
+33-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:30:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:33:9-39:20
+37            android:name="com.example.activity.MusicActivityPlay"
+37-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:34:13-66
+38            android:label="@string/app_name"
+38-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:35:13-45
+39            android:launchMode="singleTask"
+39-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:37:13-44
+40            android:windowSoftInputMode="adjustPan" >
+40-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:36:13-52
+41
+42            <!-- android:windowSoftInputMode 结局键盘覆盖掉输入法的问题 -->
+43        </activity>
+44        <activity
+44-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:40:9-45:20
+45            android:name="com.example.activity.MusicActivityScan"
+45-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:41:13-66
+46            android:label="@string/app_name"
+46-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:42:13-45
+47            android:launchMode="singleTask" >
+47-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:43:13-44
+48        </activity>
+49
+50        <receiver
+50-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:47:9-59:20
+51            android:name="com.example.receiver.MusicUpdateWidget"
+51-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:48:13-66
+52            android:exported="false"
+52-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:50:13-37
+53            android:icon="@drawable/ic_launcher"
+53-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:51:13-49
+54            android:label="音乐播放器" >
+54-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:49:13-34
+55            <intent-filter>
+55-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:54:13-58:29
+56                <action android:name="kugoumusic.WIDGET_STATUS" />
+56-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:55:17-66
+56-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:55:25-64
+57                <action android:name="kugoumusic.WIDGET_SEEK" />
+57-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:56:17-64
+57-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:56:25-62
+58                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+58-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:57:17-84
+58-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:57:25-81
+59            </intent-filter>
+60        </receiver>
+61
+62        <service
+62-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:60:9-102
+63            android:name="com.example.service.MusicService"
+63-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:60:18-65
+64            android:process=":remote" />
+64-->D:\0_Daily_Flie\Daily_lesson_file\Android\music\mu\TYMusic\app\src\main\AndroidManifest.xml:60:66-91
+65    </application>
+66
+67</manifest>

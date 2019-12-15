@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- 版本号及编码方式 -->
+<resources>
+    <string name="app_name">TY音乐</string>                <!-- 软件标题 -->
+    <string name="main_singer">传播好声音</string>              <!-- 主界面用到的字符串 -->
+    <string name="main_song">TY音乐</string>                 <!-- 主界面用到的字符串 -->
+    <string name="main_local">我的音乐</string>                <!-- 主界面用到的字符串 -->
+    <string name="main_ilike">我喜欢</string>                 <!-- 主界面用到的字符串 -->
+    <string name="main_mylist">我的歌单</string>               <!-- 主界面用到的字符串 -->
+    <string name="main_download">下载管理</string>             <!-- 主界面用到的字符串 -->
+    <string name="main_lastplay">最近播放</string>             <!-- 主界面用到的字符串 -->
+    <string name="main_search">默认搜索</string>               <!-- 主界面用到的字符串 -->
+    <string name="playlist_create">创建歌单</string>           <!-- 歌单界面用到的字符串 -->
+    <string name="player_lyric">TY，好声音</string>         <!-- 播放音乐用到的字符串 -->
+    <string name="player_song">TY音乐</string>               <!-- 播放音乐用到的字符串 -->
+    <string name="player_singer">有你，还有你想的他（她）</string>   <!-- 播放音乐用到的字符串 -->
+    <string name="search">搜索       </string>                     <!-- 搜索用到的字符串 -->
+    <string name="load">正在努力加载......</string>              <!-- 加载用到的字符串 -->
+    <string name="scan">扫描歌曲</string>                       <!-- 扫描音乐用到的字符串 -->
+    <string name="scan_complete">扫描完成</string>              <!-- 扫描音乐用到的字符串 -->
+    <string name="scan_complete_button">完成</string>          <!-- 扫描音乐用到的字符串 -->
+    <string name="scan_before">已扫描到</string>                <!-- 扫描音乐用到的字符串 -->
+    <string name="scan_after">首音乐&#8230;</string>           <!-- 扫描音乐用到的字符串 -->
+    <string name="scan_all">全部扫描</string>                   <!-- 扫描音乐用到的字符串 -->
+    <string name="localmusic_random">随机播放</string>          <!-- 本地音乐用到的字符串 -->
+    <string name="localmusic_scan">扫描本地音乐</string>          <!-- 本地音乐用到的字符串 -->
+    <string name="localmusic_menu">菜单</string>               <!-- 本地音乐用到的字符串 -->
+    <string name="localmusic_title">        本地音乐</string>    <!-- 本地音乐用到的字符串 -->
+    <string name="list_title_w">播放队列</string>                <!-- 播放列表用到的字符串 -->
+    <string name="web_song">歌曲</string>                       <!-- 网络功能用到的字符串 -->
+    <string name="web_singer">歌手</string>                     <!-- 网络功能用到的字符串 -->
+    <string name="web_singertop">歌手TOP3</string>              <!-- 网络功能用到的字符串 -->
+    <string name="web_album">专辑</string>                      <!-- 网络功能用到的字符串 -->
+    <string name="web_albumtop">专辑TOP3</string>               <!-- 网络功能用到的字符串 -->
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bnmusic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="16" />
+
+<!--    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>-->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>   
+	
+    <application
+        android:name="com.example.util.MusicApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar"
+        >
+        <activity
+            android:name="com.example.activity.MusicActivityMain"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleTask">
+             
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.activity.MusicActivityPlay"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleTask">
+            <!--android:windowSoftInputMode 结局键盘覆盖掉输入法的问题-->
+        </activity>
+        <activity
+            android:name="com.example.activity.MusicActivityScan"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            
+        </activity>
+
+        <receiver
+            android:name="com.example.receiver.MusicUpdateWidget"
+            android:label="音乐播放器"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher"
+            >
+
+            <intent-filter >
+                <action android:name="kugoumusic.WIDGET_STATUS"/>
+                <action android:name="kugoumusic.WIDGET_SEEK"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.example.service.MusicService" android:process=":remote"></service>
+    </application>
+
+</manifest>
